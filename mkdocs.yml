@@ -1,0 +1,46 @@
+site_name: Terraform Up and Running - 2nd edition
+repo_url: https://gitlab.com/plg-notes/iaac/s-oly-bk-terraform-upr-2
+repo_name: s-oly-bk-terraform-upr-2
+site_description: Notes and examples from TFUR 2
+site_author: Miro Adamy
+copyright: (c) 2020 Miro Adamy
+
+nav:
+    - Index: index.md
+    - Chapters:
+        - Chapter 1: chap1.md
+        - Chapter 2: chap2.md
+        
+theme: 
+    name: material
+
+markdown_extensions:
+    - admonition
+    - codehilite  
+    - footnotes
+    - meta
+    - toc:
+        permalink: True
+    - sane_lists
+    - pymdownx.arithmatex
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tabbed
+    - pymdownx.tilde
+    - pymdownx.magiclink
+
+plugins:
+    - search
+    - macros:
+        include_dir: .
+
+extra:
+    price: 12.50
+    company:
+        name: Acme
+        address: Laurinska 8
+        website: https://www.acme.com/    
